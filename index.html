@@ -4,10 +4,206 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" hrerf="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Admin Dashboard</title>
 </head>
 <body>
-    hei
+    <div class="dashboard">
+        <div class="sidebar">
+            <div id="sidebar-logo">
+                <img id="logo" src="images/icon.png">
+                <h1 id="logo-name">Dashboard</h1>
+            </div>
+            <div class="sidebar-nav">
+                <a class="sidebar-nav-item" href="">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </a>
+                <a class="sidebar-nav-item" href="">
+                    <i class="fa-solid fa-user"></i>
+                    Profile
+                </a>
+                <a class="sidebar-nav-item" href="">
+                    <i class="fa-solid fa-message"></i>
+                    Messsages
+                </a>
+                <a class="sidebar-nav-item" href="">
+                    <i class="fa-solid fa-clock"></i>
+                    History
+                </a>
+                <a class="sidebar-nav-item" href="">
+                    <i class="fa-solid fa-clipboard"></i>
+                    Tasks
+                </a>
+                <a class="sidebar-nav-item" href="">
+                    <i class="fa-solid fa-user-group"></i>
+                    Communities
+                </a>
+            
+            </div>
+            <div class="sidebar-nav">
+                <a class="sidebar-nav-item" href="">
+                    <i class="fa-solid fa-gear"></i>
+                    Settings
+                </a>
+                <a class="sidebar-nav-item" href="">
+                    <i class="fa-sharp fa-solid fa-phone"></i>
+                    Support
+                </a>
+                <a class="sidebar-nav-item" href="">
+                    <i class="fa-solid fa-square-check"></i>
+                    Privacy
+                </a>
+            </div>
+        </div>
+        <div class="header">
+            <div class="header-content" id="header-top">
+                <div class="header-search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" name="search" id="search">
+                </div>
+                <div class="header-user-info">
+                    <a href=""><i class="fa-regular fa-envelope"></i></a>
+                    <img class="image-small" src="images/icon.png">
+                    <h2>Dorwin Liang</h2>
+                </div>
+            </div>
+            <div class="header-content" id="header-bottom">
+                <div class="header-user-welcome-div">
+                    <img class="image-big" src="images/icon.png">
+                    <div class="header-user">
+                        <h4>Hi there,</h4>
+                        <h2>Dorwin Liang (@Dorwin)</h2>
+                    </div>
+                </div>
+                <div class="header-cta">
+                    <button type="button">New</button>
+                    <button type="button">Upload</button>
+                    <button type="button">Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-section">
+            <div class="project-section">
+                <h2 class="section-title">Your Projects</h2>
+                <div class="dashboard-div">
+                    <div class="dashboard-item">
+                        <h2>Super Cool Project</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi dolorum labore sapiente veniam voluptatibus, eveniet autem enim pariatur facere ratione fugiat consequuntur! Voluptates perferendis eaque necessitatibus quasi suscipit ab.</p>
+                        <div class="dashboard-icons">
+                            <a href=""><i class="fa-regular fa-star"></i></a>
+                            <a href=""><i class="fa-regular fa-comment"></i></a>
+                            <a href=""><i class="fa-regular fa-thumbs-up"></i></a>
+                        </div>
+                    </div>
+                    <div class="dashboard-item">
+                        <h2>Super Cool Project</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi dolorum labore sapiente veniam voluptatibus, eveniet autem enim pariatur facere ratione fugiat consequuntur! </p>
+                        <div class="dashboard-icons">
+                            <a href=""><i class="fa-regular fa-star"></i></a>
+                            <a href=""><i class="fa-regular fa-comment"></i></a>
+                            <a href=""><i class="fa-regular fa-thumbs-up"></i></a>
+                        </div>
+                    </div>
+                    <div class="dashboard-item">
+                        <h2>Super Cool Project</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi dolorum labore sapiente veniam voluptatibus, eveniet autem enim pariatur facere ratione fugiat consequuntur! Voluptates perferendis eaque necessitatibus quasi suscipit ab.</p>
+                        <div class="dashboard-icons">
+                            <a href=""><i class="fa-regular fa-star"></i></a>
+                            <a href=""><i class="fa-regular fa-comment"></i></a>
+                            <a href=""><i class="fa-regular fa-thumbs-up"></i></a>
+                        </div>
+                    </div>
+                    <div class="dashboard-item">
+                        <h2>Super Cool Project</h2>
+                        <p>Lorem ipsum dolorlorum labortibus quasi suscipit ab.dolorlorum labortibus quasi suscipitdolorlorum labortibus quasi suscipit</p>
+                        <div class="dashboard-icons">
+                            <a href=""><i class="fa-regular fa-star"></i></a>
+                            <a href=""><i class="fa-regular fa-comment"></i></a>
+                            <a href=""><i class="fa-regular fa-thumbs-up"></i></a>
+                        </div>
+                    </div>
+                    <div class="dashboard-item">
+                        <h2>Super Cool Project</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi dolorum labore sapiente veniam voluptatibus, eveniet autem enim pariatur facere ratione fugiat consequuntur! Voluptates perferendis eaque necessitatibus quasi suscipit ab.</p>
+                        <div class="dashboard-icons">
+                            <a href=""><i class="fa-regular fa-star"></i></a>
+                            <a href=""><i class="fa-regular fa-comment"></i></a>
+                            <a href=""><i class="fa-regular fa-thumbs-up"></i></a>
+                        </div>
+                    </div>
+                    <div class="dashboard-item">
+                        <h2>Super Cool Project</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi dolorum labore sapiente veniam voluptatibus, eveniet autem enim pariatur facere ratione fugiat consequuntur! Voluptates perferendis eaque necessitatibus quasi suscipit ab.</p>
+                        <div class="dashboard-icons">
+                            <a href=""><i class="fa-regular fa-star"></i></a>
+                            <a href=""><i class="fa-regular fa-comment"></i></a>
+                            <a href=""><i class="fa-regular fa-thumbs-up"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=annoucement-section>
+                <h2 class="annoucement-title">Annoucements</h2>
+                <div class="annoucement-div">
+                    <div>
+                        <h2>Site Maintenance</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corporis odio!</p>
+                    </div>
+                    <div>
+                        <h2>Community Share Day</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corporis odio!</p>
+                    </div>
+                    <div>
+                        <h2>Updated Privacy Policy</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corporis odio!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trending-section">
+                <h2 class="annoucement-title">Trending</h2>
+                <div class="trending-div">
+                    <div class="trending-individual-div">
+                        <img class="image-small" src="images/icon.png">
+                        <div class="trending-info">
+                            <h3>@Bob</h3>
+                            <p>World Peacae Builder</p>
+                        </div>
+                    </div>
+                    <div class="trending-individual-div">
+                        <img class="image-small" src="images/icon.png">
+                        <div class="trending-info">
+                            <h3>@morgan</h3>
+                            <p>The Odin Project</p>
+                        </div>
+                    </div>
+                    <div class="trending-individual-div">
+                        <img class="image-small" src="images/icon.png">
+                        <div class="trending-info">
+                            <h3>@alex</h3>
+                            <p>Life Changing App</p>
+                        </div>
+                    </div>
+                    <div class="trending-individual-div">
+                        <img class="image-small" src="images/icon.png">
+                        <div class="trending-info">
+                            <h3>@freezin</h3>
+                            <p>Destroyer of Peace</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    
 </body>
 </html>
